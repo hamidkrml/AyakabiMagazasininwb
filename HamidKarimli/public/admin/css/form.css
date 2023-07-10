@@ -1,0 +1,19 @@
+/**
+ * Bu sayfa da yönetici giriş sayfasının tasarım kodları bulunmaktadır.
+ */
+
+.form-container .image{
+    background-image: url("../../img/nike-admin.jpg");
+}
+
+@media (max-width: 768px) {
+    .form-container {
+        display:block;
+    }
+
+    .form-container .form{
+        width:100%;
+        height:100%;
+        transform:translateY(100px);
+    }
+}

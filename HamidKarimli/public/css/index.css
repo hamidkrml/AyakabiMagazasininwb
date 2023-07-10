@@ -1,0 +1,76 @@
+/**
+ * Bu sayfa da ana sayfanın tasarımı ile ilgili kodlar bulunur.
+ */
+
+
+.product-card {
+    width: calc(25% - 10px);
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+    padding: 10px;
+    text-align: center;
+    transition: 0.5s;
+    background-color:#fff;
+}
+
+.product-card img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.product-card h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+.product-card .price {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.product-card a{
+    text-decoration:none;
+}
+
+.product-card .buy-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    height:50%;
+    padding: 10px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.product-card .buy-button:hover{
+    opacity:0.9;
+}
+
+.product-card .buy-button:active{
+    opacity:0.7;
+}
+
+@media screen and (max-width: 767px) {
+    .product-card {
+        width: calc(50% - 10px);
+    }
+}
+
+.product-card:hover{
+    transform: scale(1.05);
+}
+
+.product-info{
+    display:flex;
+    justify-content:space-between;
+    padding:0px 10px;
+    align-items: center;
+}
+
+.product-name{
+    text-align: left;
+}

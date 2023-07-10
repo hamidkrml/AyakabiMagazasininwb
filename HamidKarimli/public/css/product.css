@@ -1,0 +1,107 @@
+/**
+ * Bu sayfa da ürün detay sayfasının tasarım kodları bulunmaktadır.
+ */
+
+
+.product-main{
+    display:flex;
+    justify-content: center;
+    width:100%;
+}
+
+div.hr{
+    width: 75%;
+    height: 1px;
+    background-color: #ccc;
+    margin: 0 auto;
+}
+
+.product-main .buy-now{
+    width:35%
+}
+
+.product-main .product-card{
+    width:30%;
+    margin-right:50px;
+    height:385px;
+}
+
+.product-main .product-card:hover{
+    transform: scale(1);
+}
+
+.product-main .form-container{
+    margin-top:20px;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display:block;
+}
+
+.product-main .form-container .form{
+    width:100%;
+    padding:15px 50px;
+}
+
+.product-main .payment-method{
+    margin:15px 0px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.product-main h2{
+    margin:20px 0px;
+}
+
+.product-main .payment{
+    width: 100%;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+    padding: 10px 30px;
+}
+
+.product-main .form-inline{
+    display:flex;
+    justify-content: space-between;
+}
+
+.product-main .form-inline div:first-child{
+    margin-right:20px;
+}
+
+.product-main .form-inline .form-wide{
+    width: 75%;
+}
+
+.product-main .form-inline .form-narrow{
+    width: 25%;
+}
+
+.product-footer{
+    background-color: #efefef;
+    padding:5px 0px;
+    border-radius: 10px;
+    font-size:13px;
+    color: #989797;
+    margin-top:5px;
+}
+
+@media (max-width: 768px) {
+    .product-main {
+        display:block;
+    }
+
+    .product-main .product-card{
+        width:100%;
+        height:100%;
+    }
+
+    .product-main .buy-now{
+        width:100%;
+    }
+
+    .product-main .form-container .form{
+        transform: translateY(0px);
+    }
+}

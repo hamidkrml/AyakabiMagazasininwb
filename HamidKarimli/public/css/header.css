@@ -1,0 +1,51 @@
+/**
+ * Bu sayfa da menü tasarımı ile ilgili kodlar bulunur.
+ */
+
+
+header {
+    background-color: #fff;
+    height: 50px;
+    display:flex;
+    border-bottom:1px solid #e2e2e2;
+}
+
+header .container {
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 0px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    color: #141414;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin:10px 0px;
+    transition: background-color 0.3s ease;
+    font-size:14px;
+    border-radius:5px;
+}
+
+nav ul li a.page-item{
+    background-color:#333;
+    color:#fff;
+}
+
+nav ul li a.page-item:hover {
+    background-color: #141414;
+}
+
+nav ul li a.page-item:active {
+    background-color: #555555B3;
+}

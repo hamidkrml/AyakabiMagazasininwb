@@ -1,0 +1,26 @@
+/**
+ * Bu sayfa da alert mesajlarının tasarımı ile ilgili kodlar bulunur.
+ */
+
+.alert{
+    margin-top:10px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+    border:2px solid #9eeaf9;
+    background-color: #cff4fc;
+    color: #055160;
+    margin-bottom:30px;
+}
+
+.alert-danger{
+    border:2px solid #f9a9a9;
+    background-color: #fcd1d1;
+    color: #7a0a0a;
+}
+
+.alert .close{
+    margin-left:auto;
+    margin-right:10px;
+}
